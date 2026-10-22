@@ -120,7 +120,7 @@ locals {
 
 ### Задание 7* (необязательное)
 
-Объявлен конфиг со следующим набором данных:
+Добавлен [конфиг](https://github.com/expgt/net-fops-hw-15-3/blob/main/test_local_vpc.tf) со следующим набором данных:
 ```
 > local.vpc
 {
@@ -151,7 +151,7 @@ locals {
 
 ### Задание 8* (необязательное)
 
-Выполнена проверка кода с данной конфигурацией [hosts_8.tftpl](https://github.com/expgt/net-fops-hw-15-3/blob/main/hosts_8.tftpl).
+Выполнена проверка кода с данной [конфигурацией](https://github.com/expgt/net-fops-hw-15-3/blob/main/hosts_8.tftpl).
 ```
 [webservers]
 %{~ for i in webservers ~}
@@ -198,7 +198,7 @@ ${i["name"]} ansible_host=${i["network_interface"][0]["nat_ip_address"] platform
 │ Call to function "templatefile" failed: ./hosts_8.tftpl:3,89-105: Invalid index; The given key does not identify an element in this collection value., and 1 other diagnostic(s).
 ```
 Которая сообщает, что в выражении ```${i["platform_id "]}``` после параметра platform_id указан лишний пробел.
-После его удаления, конфиг успешно прошел проверку:
+После его удаления, код успешно прошел проверку:
 
 ![8](https://github.com/expgt/net-fops-hw-15-3/blob/main/15_3_8.png)
 
