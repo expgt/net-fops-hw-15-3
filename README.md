@@ -36,6 +36,7 @@ variable "each_vm" {
 }
 ```
 В переменную внесены необходимые параметры.
+
 3. ВМ, описанные в файле count-vm.tf, создаются после ВМ, описанных в файле for_each-vm.tf.
 ```
 depends_on  = [yandex_compute_instance.db]
