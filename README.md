@@ -83,9 +83,9 @@ locals {
 
 ![4_1](https://github.com/expgt/net-fops-hw-15-3/blob/main/15_3_4_1.png)
 
-![4_1](https://github.com/expgt/net-fops-hw-15-3/blob/main/15_3_4_2.png)
+![4_2](https://github.com/expgt/net-fops-hw-15-3/blob/main/15_3_4_2.png)
 
-![4_1](https://github.com/expgt/net-fops-hw-15-3/blob/main/15_3_4_3.png)
+![4_3](https://github.com/expgt/net-fops-hw-15-3/blob/main/15_3_4_3.png)
 
 ------
 
