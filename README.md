@@ -94,7 +94,7 @@ locals {
 ------
 
 ### Задание 5* (необязательное)
-1. Написан output, который отображает ВМ из созданных ресурсов count и for_each в виде списка словарей:
+1. Написан [output](https://github.com/expgt/net-fops-hw-15-3/blob/main/outputs.tf), который отображает ВМ из созданных ресурсов count и for_each в виде списка словарей.
 Скриншот вывода команды ```terrafrom output```:
 
 ![5_1](https://github.com/expgt/net-fops-hw-15-3/blob/main/15_3_5_1.png)
